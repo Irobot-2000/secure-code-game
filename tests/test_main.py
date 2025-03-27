@@ -51,6 +51,5 @@ class TestOnlineStore(unittest.TestCase):
         order_1 = c.Order(id="1", items=[service])
         self.assertEqual(c.validorder(order_1), "Invalid item type: service")
 
-
 if __name__ == "__main__":
     unittest.main()

@@ -3,7 +3,7 @@ name: Run Tests
 on:
   pull_request:  # Runs on pull requests
     branches:
-      - dev
+      - main
 
 jobs:
   test:
